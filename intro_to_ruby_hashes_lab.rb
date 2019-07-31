@@ -18,14 +18,8 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
- #my_hash_creator { :key value }
- my_hash_creator = { "Bob" => 82,
-"Jim" => 94,
-"Billy" => 58
-}
-my_hash_creator.each do|key,value|
-puts "#{key}: #{value}"
-end
+ my_hash_creator { :key value }
+  
    
 end
 
